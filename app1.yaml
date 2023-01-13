@@ -27,7 +27,7 @@ kind: Service
 metadata:
   name: svc-app1 
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: web1
   ports:
